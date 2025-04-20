@@ -42,10 +42,15 @@ let books = [
     title: "The Hitchhiker's Guide to the Galaxy",
     author: "Douglas Adams",
     pages: 310,
-    isFavorite:true
+    isFavorite: true,
   },
-  { title: "Pride and Prejudice", author: "Jane Austen", pages: 410 , isFavorite: false },
-  { title: "1984", author: "George Orwell", pages: 510 , isFavorite: false },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    pages: 410,
+    isFavorite: false,
+  },
+  { title: "1984", author: "George Orwell", pages: 510, isFavorite: false },
 ];
 for (let i = 0; i < books.length; i++) {
   console.log(
@@ -54,9 +59,7 @@ for (let i = 0; i < books.length; i++) {
 }
 //Problem 8: Favorite Book Finder,Inside your array of books, add a property isFavorite: true to one of them.
 for (let i = 0; i < books.length; i++) {
-    if(books[i].isFavorite){
-        console.log(books[i])
-    }
-
+  if (books[i].isFavorite) {
+    console.log(books[i]);
   }
-  
+}
